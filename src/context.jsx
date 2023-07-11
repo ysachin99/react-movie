@@ -6,7 +6,7 @@ export const MovieContext = createContext();
 
 export const ContextProvider = ({children}) => {
     const [movies, setMovies] = useState([])
-    const [query, setQuery] = useState('superman')
+    const [query, setQuery] = useState('')
 
    const fetchMovie = async () => {
     try{
