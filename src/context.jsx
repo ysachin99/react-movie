@@ -1,6 +1,6 @@
 import { createContext, useEffect, useState } from "react";
 
-const API_URL = `http://www.omdbapi.com/?apikey=${import.meta.env.VITE_REACT_APP_API_KEY}`;
+const API_URL = `https://www.omdbapi.com/?apikey=${import.meta.env.VITE_REACT_APP_API_KEY}`;
 
 export const MovieContext = createContext();
 
